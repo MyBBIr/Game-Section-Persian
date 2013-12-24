@@ -5,6 +5,7 @@
  *   Copyright: © 2006-2009 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ *   Translate by: My-BB.Ir Group
  *   
  *   Last modified: 29/03/2009 by Paretje
  *

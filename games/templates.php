@@ -5,6 +5,7 @@
  *   Copyright: © 2006-2012 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ *   Translate by: My-BB.Ir Group
  *   
  *   Last modified: 11/12/2012 by Paretje
  *
@@ -243,8 +244,9 @@ $theme_templates['games_favourites'] = "<html>
 $theme_templates['games_footer'] = "<br />
 <!-- DON\'T REMOVE THIS COPYRIGHT -->
 <span class=\"smalltext\">
-Powered by the <a href=\"http://www.gamesection.org\" target=\"_blank\">Game Section</a><br />
-Copyright © 2006-{\$copy_year} <strong><a href=\"http://www.gamesection.org\" target=\"_blank\">Game Section Development Group</a></strong>
+قدرت گرفته از  <a href=\"http://www.gamesection.org\" target=\"_blank\">بخش بازی</a><br />
+حق چاپ © 2006-{\$copy_year} <strong><a href=\"http://www.gamesection.org\" target=\"_blank\">گروه توسعه بخش بازی</a></strong><br />
+فارسی شده توسط <a href=\"http://my-bb.ir\" target=\"_blank\">گروه پشتیبانی فارسی مای‌بی‌بی</a>
 </span>
 <br />";
 
