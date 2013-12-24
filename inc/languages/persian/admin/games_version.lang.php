@@ -5,6 +5,10 @@
  *   Copyleft: © 2006-2008 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ *
+ * Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ * Website: http://Mellat-design.ir
+ * 
  *   
  *   Last modified: 16/07/2008 by Paretje
  *
@@ -27,18 +31,18 @@
  *
  ***************************************************************************/
 
-$l['nav_credits'] = "Credits";
+$l['nav_credits'] = "اعتبار";
 
-$l['nav_version_desc'] = "Here you can check if you are running the latest version of the Game Section.";
-$l['nav_credits_desc'] = "These people have contributed their time to release this Game Section version, to translate this and to help you when you have problems.";
+$l['nav_version_desc'] = "اینجا شما میتوانید چک کنید که از آخرین نسخه استفاده میکنید یا خیر.";
+$l['nav_credits_desc'] = "این افراد وقت خود را برای انتشار نسخه های بهتر از پلاگین بخش بازی سپری میکنند و به شما زمانی که به مشکل برمیخورید کمک میکنند  .";
 
-$l['version_your'] = "Your version:";
-$l['version_latest'] = "Latest version:";
-$l['version_information'] = "Version information:";
-$l['version_download'] = "More information and/or download";
+$l['version_your'] = "ورژن شما :";
+$l['version_latest'] = "آخرین نسخه :";
+$l['version_information'] = "اطلاعات نسخه :";
+$l['version_download'] = "اطلاعات بیشتر / دانلود";
 
-$l['credits_developers'] = "Developers";
-$l['credits_translators'] = "Translators";
-$l['credits_betatesters'] = "Beta Testers";
-$l['credits_supportteam'] = "Support Team";
+$l['credits_developers'] = "توسعه دهندگان";
+$l['credits_translators'] = "مترجمان";
+$l['credits_betatesters'] = "تست کننده های نسخه آزمایشی";
+$l['credits_supportteam'] = "تیم پشتیبانی";
 ?>
