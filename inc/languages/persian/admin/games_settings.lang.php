@@ -64,7 +64,7 @@ $l['settings_title_theme'] = "پوسته پیش فرض";
 $l['settings_title_online'] = "نمایش افراد آنلاین در";
 
 $l['settings_title_stats_global'] = "نمایش آمار به صورت سراسری";
-$l['settings_title_stats_cats'] = ""نمایش آمار دسته بندی ها";
+$l['settings_title_stats_cats'] = "نمایش آمار دسته بندی ها";
 $l['settings_title_stats_games_max'] = "تعداد بازی ها";
 $l['settings_title_stats_lastchamps_max'] = "تعداد آخرین قهرمانان";
 $l['settings_title_stats_lastscores_max'] = "تعداد آخرین امتیازات";
@@ -80,7 +80,7 @@ $l['settings_title_tournaments_set_rounds'] = "قابل انتخاب بودن د
 $l['settings_title_tournaments_set_roundtime'] = "قابل انتخاب بودن دفعات بازی در روز";
 
 $l['settings_desc_closed'] = "مدیران میتوانند در این حالت به بخش بازی دسترسی داشته باشند .<br />\n<br />\n<strong>Administrators will have still access to the Game Section</strong>";
-$l['settings_desc_banned'] = ""در این بخش می توانید نام های کاربری محروم از بخش بازی را وارد کنید.<<br />\n<br />\nنمونه : User 1,User2,user3";
+$l['settings_desc_banned'] = "در این بخش می توانید نام های کاربری محروم از بخش بازی را وارد کنید.<<br />\n<br />\nنمونه : User 1,User2,user3";
 
 $l['settings_desc_maxgames'] = "تعداد بازی های پیش فرض درون هر صفحه";
 $l['settings_desc_set_maxgames'] = "گزینه هایی که کاربران میتوانند انتخاب کنند را وارد کنید. به وسیله کاما متمایز سازی کنید.";
