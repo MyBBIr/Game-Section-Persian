@@ -92,7 +92,7 @@ $l['rate'] = "رای";
 $l['champ'] = "<strong>{1}</strong><br />به همراه<br /><strong>{2}</strong><br />امتیاز قهرمان این بازی‌است.";
 
 $l['categories'] = "دسته بندی ها";
-$l['categorydoesntexist'] = "دسته بندی وجود ندارد..";
+$l['categorydoesntexist'] = "دسته بندی وجود ندارد.";
 $l['no_games'] = "هیچ بازی‌ای وجود ندارد.";
 
 $l['gamedoesntexist'] = "بازی وجود ندارد.";
@@ -105,7 +105,7 @@ $l['scoreadded'] = "امتیاز شما اضافه شد، <br /> شما به ز�
 $l['scoredontadded'] = "شما نتوانستید رکورد این بازی را بشکنید.<br />حال به صفحه امتیازات بازخواهید گشت.";
 $l['cheatscore'] = "به نظر می‌رسد شما میخواهید با تقلب امتیازی به دست اورید.!";
 $l['scoredoesntexist'] = "امتیازی وجود ندارد.";
-$l['commentsaved'] = "نظر شما اضافه شد.<br />حال باز خواهیدگشت..";
+$l['commentsaved'] = "نظر شما اضافه شد.<br />حال باز خواهیدگشت.";
 
 $l['highscores'] = "بالاترین امتیازات برای {1}";
 $l['play_game'] = "بازی کردن {1}";
@@ -113,7 +113,7 @@ $l['username'] = "نام‌کاربری";
 $l['score'] = "امتیاز";
 $l['comment'] = "نظر";
 $l['gainedat'] = "زمان به دست‌آوردن";
-$l['noscores'] = "هیچ امتیازی برای این بازی نیست..";
+$l['noscores'] = "هیچ امتیازی برای این بازی نیست.";
 
 $l['nochamps'] = "هیچ قهرمانی برای این انجمن نیست.";
 
@@ -127,55 +127,55 @@ $l['thirth_places'] = "رتبه‌های سوم:";
 $l['tenth_places'] = "۱۰ رتبه اول:";
 $l['total_scores'] = "مجموع امتیازات:";
 $l['bestplayerrank'] = "رتبه بهترین بازی کننده:";
-$l['userdoesntexist'] = "The member you specified is either invalid or doesn't exist.";
+$l['userdoesntexist'] = "کاربر انتخاب شده نامعتبر است یا وجود ندارد.";
 
-$l['search'] = "Search";
-$l['all'] = "All";
-$l['noresults'] = "There are no results for your search.<br />You will be redirected to the Game Section.";
-$l['searching'] = "Thank you, your search has been submitted and you will now be taken to the results list.";
-$l['searchresults'] = "Search results";
-$l['searchresults_of'] = "Search results: {1}";
-$l['searchresults_name'] = "Name: {1}{2}";
-$l['searchresults_des'] = "Description: {1}{2}";
-$l['searchresults_cat'] = "Category: {1}";
-$l['gametitle'] = "Game title";
-$l['category'] = "Category";
-$l['bestscore'] = "Best score";
-$l['added'] = "Added on";
+$l['search'] = "جستجو";
+$l['all'] = "همه";
+$l['noresults'] = "نتیجه‌ای برای جستجوی شما وجود ندارد.<br />شما به بخش بازی باز خواهید گشت.";
+$l['searching'] = "سپاس گزاریم، جستجوی شما ثبت شد، اکنون به صفحه‌ی نتایج خواهید رفت.";
+$l['searchresults'] = "نتایج جستو";
+$l['searchresults_of'] = "نتایج جستجو: {1}";
+$l['searchresults_name'] = "نام: {1}{2}";
+$l['searchresults_des'] = "توضیحات: {1}{2}";
+$l['searchresults_cat'] = "دسته‌بندی: {1}";
+$l['gametitle'] = "عنوان بازی";
+$l['category'] = "دسته بندی";
+$l['bestscore'] = "بهترین امتیاز";
+$l['added'] = "افزوده شده در";
 
-$l['alreadyfavourite'] = "You already added this game to your favourites.";
-$l['added_favourite'] = "The game is added to your favourites.";
-$l['deleted_favourite'] = "The game is removed from your favourites.";
+$l['alreadyfavourite'] = "شما قبلا این بازی را به علاقه‌مندی‌های خود اضافه کرده اید.";
+$l['added_favourite'] = "این بازی به علاقه‌مندی‌های شما اضافه شد.";
+$l['deleted_favourite'] = "این بازی از علاقه‌مندی‌های شما حذف گردید.";
 
-$l['alreadyrated'] = "You added already a rating for this game.";
-$l['rate_game'] = "Rate {1}";
-$l['rated'] = "Your rating is added";
+$l['alreadyrated'] = "شما قبلا به این بازی رتبه ای داده‌اید.";
+$l['rate_game'] = "رتبه {1}";
+$l['rated'] = "رتبه‌ی شما افزوده شد.";
 
-$l['editsettings'] = "Edit Game Section Settings";
-$l['usedefauld'] = "Use default";
-$l['save'] = "Save";
-$l['settingssaved'] = "Your settings are saved.<br />You will be redirected.";
+$l['editsettings'] = "ویرایش تنظیمات بخش بازی";
+$l['usedefauld'] = "استفاده از پیش‌فرض";
+$l['save'] = "ذخیره";
+$l['settingssaved'] = "تنظیمات شما ذخیره شدند.<br />اکنون انتقال‌داده خواهید شد.";
 
-$l['options_games'] = "Games Options";
-$l['options_scores'] = "Score Options";
-$l['options_themes'] = "Theme Options";
+$l['options_games'] = "تنظیمات بازی";
+$l['options_scores'] = "تنظیمات امتیاز";
+$l['options_themes'] = "تنظیمات قالب";
 
-$l['option_maxgames'] = "Maximum Games Per Page:";
-$l['option_maxgames_sen'] = "{1} games per page";
+$l['option_maxgames'] = "حداکثر بازی در هر صفحه:";
+$l['option_maxgames_sen'] = "{1} بازی درهر صفحه";
 
-$l['option_sortby'] = "Sort By:";
-$l['option_sortby_name'] = "Sort by name";
-$l['option_sortby_dateline'] = "Sort by date";
-$l['option_sortby_played'] = "Sort by played";
-$l['option_sortby_lastplayed'] = "Sort by last played";
-$l['option_sortby_rating'] = "Sort by rating";
+$l['option_sortby'] = "مرتب سازی براساس:";
+$l['option_sortby_name'] = "مرتب سازی بر اساس نام";
+$l['option_sortby_dateline'] = "مرتب سازی بر اساس تاریخ";
+$l['option_sortby_played'] = "مرتب سازی بر اساس بازی‌انجام‌شده";
+$l['option_sortby_lastplayed'] = "مرتب سازی بر اساس آخرین بازی انجام‌شده";
+$l['option_sortby_rating'] = "مرتب سازی بر اساس امتیاز";
 
-$l['option_order'] = "Order:";
-$l['option_order_asc'] = "Ascending";
-$l['option_order_desc'] = "Descending";
+$l['option_order'] = "ترتیب:";
+$l['option_order_asc'] = "صعودی";
+$l['option_order_desc'] = "نزولی";
 
-$l['option_maxscores'] = "Maximum Scores Per Page:";
-$l['option_maxscores_sen'] = "{1} scores per page";
+$l['option_maxscores'] = "حداکثر امتیازها در هر صفحه:";
+$l['option_maxscores_sen'] = "{1} امتیاز در هر صفحه";
 
-$l['option_themes'] = "Game Section Theme:";
+$l['option_themes'] = "پوسته‌ی بخش بازی:";
 ?>
