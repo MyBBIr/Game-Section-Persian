@@ -6,6 +6,9 @@
  *   
  *   Website: http://www.gamesection.org
  *   
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
+ *   
  *   Last modified: 16/02/2010 by Paretje
  *
  ***************************************************************************/
@@ -31,90 +34,87 @@ $l['nav_manage_settings'] = "Manage Settings";
 
 $l['nav_manage_settings_desc'] = "This section allows you to manage all the settings relating to the Game Section installation on your board.";
 
-$l['setting_count'] = "1 Setting";
-$l['settings_count'] = "{1} Settings";
-$l['change'] = "Change";
+$l['setting_count'] = "1 تنظیم";
+$l['settings_count'] = "{1}  تنظیمات ";
+$l['change'] = "تغییر";
 
-$l['edited_settings'] = "The settings are successfully edited.";
+$l['edited_settings'] = "تنظیمات با موفقیت تغییر یافت";
 
-$l['settings_group_title_general'] = "General Options";
-$l['settings_group_title_display'] = "Display Options";
-$l['settings_group_title_statistics'] = "Statistics Options";
-$l['settings_group_title_tournaments'] = "Tournaments System";
+$l['settings_group_title_general'] = "تنظیمات عمومی";
+$l['settings_group_title_display'] = "تنظیمات نمایش";
+$l['settings_group_title_statistics'] = "تنظیمات آمار";
+$l['settings_group_title_tournaments'] = "سیستم مسابقه";
 
-$l['settings_group_desc_general'] = "This group contains various settings.";
-$l['settings_group_desc_display'] = "This group contains options to configure the look of the Game Section.";
-$l['settings_group_desc_statistics'] = "This group contains the options used by the statistics of the Game Section.";
-$l['settings_group_desc_tournaments'] = "This group contains the settings to configure the tournaments system of the Game Section.";
+$l['settings_group_desc_general'] = "این گروه تنظیمات مختلفی را شامل میشود.";
+$l['settings_group_desc_display'] = "این گروه شامل گزینه های پیکر بندی ظاهر پلاگین میشود.";
+$l['settings_group_desc_statistics'] = "این گروه بخش آمار پلاگین را شامل میشود.";
+$l['settings_group_desc_tournaments'] = "این گروه شامل تنظیماتی برای بخش مسابقات پلاگین می باشد.";
 
-$l['settings_title_closed'] = "Game Section Closed";
-$l['settings_title_banned'] = "Banned Usernames";
+$l['settings_title_closed'] = "بخش بازی بسته شده است";
+$l['settings_title_banned'] = "اسامی کاربری بسته شده.";
 
-$l['settings_title_maxgames'] = "Default Games Per Page";
-$l['settings_title_set_maxgames'] = "User Selectable Games Per Page";
-$l['settings_title_sortby'] = "Default, Sort Games By";
-$l['settings_title_order'] = "Default Order";
-$l['settings_title_maxscores'] = "Default Scores Per Page";
-$l['settings_title_set_maxscores'] = "User Selectable Scores Per Page";
-$l['settings_title_new_game'] = "Days For New Game";
-$l['settings_title_theme'] = "Default Theme";
-$l['settings_title_online'] = "View Who's Online On";
+$l['settings_title_maxgames'] = "بازی های پیش فرض در صفحه";
+$l['settings_title_set_maxgames'] = "بازی های قابل انتخاب توسط کاربر در هر صفحه";
+$l['settings_title_sortby'] = "مرتب سازی پیش فرض بازی ها بر حسب";
+$l['settings_title_order'] = "مرتب سازی پیش فرض";
+$l['settings_title_maxscores'] = "امتیازات پیش فرض در هر صفحه";
+$l['settings_title_set_maxscores'] = "امتیازات قابل انتخاب توسط کاربر در هر صفحه";
+$l['settings_title_new_game'] = "روز برای بازی های جدید";
+$l['settings_title_theme'] = "پوسته پیش فرض";
+$l['settings_title_online'] = "نمایش افراد آنلاین در";
 
-$l['settings_title_stats_global'] = "View Statistics On Global";
-$l['settings_title_stats_cats'] = "View Statistics Of Categories";
-$l['settings_title_stats_games_max'] = "Number of Games";
-$l['settings_title_stats_lastchamps_max'] = "Number of Last Champions";
-$l['settings_title_stats_lastscores_max'] = "Number of Last Scores";
-$l['settings_title_stats_bestplayers'] = "Show Best Players";
-$l['settings_title_stats_randomgames'] = "Show Random Games";
-$l['settings_title_stats_randomgames_max'] = "Number of Random Games";
-$l['settings_title_stats_lastchamps_advanced'] = "Advanced Last Champions";
-$l['settings_title_stats_lastchamps_advanced_max'] = "Number of Logged Last Champions";
-$l['settings_title_stats_userstats_multipages'] = "Multipages in User Statistics";
+$l['settings_title_stats_global'] = "نمایش آمار به صورت سراسری";
+$l['settings_title_stats_cats'] = ""نمایش آمار دسته بندی ها";
+$l['settings_title_stats_games_max'] = "تعداد بازی ها";
+$l['settings_title_stats_lastchamps_max'] = "تعداد آخرین قهرمانان";
+$l['settings_title_stats_lastscores_max'] = "تعداد آخرین امتیازات";
+$l['settings_title_stats_bestplayers'] = "نمایش بهترین بازیکنان";
+$l['settings_title_stats_randomgames'] = "نمایش بازی های تصادفی";
+$l['settings_title_stats_randomgames_max'] = "تعداد بازی های تصادفی";
+$l['settings_title_stats_lastchamps_advanced'] = "آخرین قهرمانان پیشرفته";
+$l['settings_title_stats_lastchamps_advanced_max'] = "آخرین قهرمانان پیشرفته";
+$l['settings_title_stats_userstats_multipages'] = "صفحات چندگانه در آمار کاربر";
 
-$l['settings_title_tournaments_activated'] = "Tournaments System is Activated";
-$l['settings_title_tournaments_set_rounds'] = "Selectable Rounds of a Tournament";
-$l['settings_title_tournaments_set_roundtime'] = "Selectable Number of Round Days";
+$l['settings_title_tournaments_activated'] = "سیستم مسابقه فعال شد";
+$l['settings_title_tournaments_set_rounds'] = "قابل انتخاب بودن دفعات یک مسابقه";
+$l['settings_title_tournaments_set_roundtime'] = "قابل انتخاب بودن دفعات بازی در روز";
 
-$l['settings_desc_closed'] = "Here you can set if you want to close the Game Section.<br />\n<br />\n<strong>Administrators will have still access to the Game Section</strong>";
-$l['settings_desc_banned'] = "Here you can add the usernames of users that you will ban from the Game Section.<br />\n<br />\nExamle: User 1,User2,user3";
+$l['settings_desc_closed'] = "مدیران میتوانند در این حالت به بخش بازی دسترسی داشته باشند .<br />\n<br />\n<strong>Administrators will have still access to the Game Section</strong>";
+$l['settings_desc_banned'] = ""در این بخش می توانید نام های کاربری محروم از بخش بازی را وارد کنید.<<br />\n<br />\nنمونه : User 1,User2,user3";
 
-$l['settings_desc_maxgames'] = "Default games shown per page.";
-$l['settings_desc_set_maxgames'] = "Enter the options users should be able to select, as their maximum of games per page, separated by commas.";
-$l['settings_desc_sortby'] = "Select by what the games must to be sorted.";
-$l['settings_desc_order'] = "Select the order to sort the games.";
-$l['settings_desc_maxscores'] = "Default scores shown per page.";
-$l['settings_desc_set_maxscores'] = "Enter the options users should be able to select, as their maximum of scores per page, separated by commas.";
-$l['settings_desc_new_game'] = "The number of days a game will be marked as new.";
-$l['settings_desc_theme'] = "Select the default theme of the Game Section.";
-$l['settings_desc_online'] = "Select where you want to view the \"Who's Online\"-box.";
+$l['settings_desc_maxgames'] = "تعداد بازی های پیش فرض درون هر صفحه";
+$l['settings_desc_set_maxgames'] = "گزینه هایی که کاربران میتوانند انتخاب کنند را وارد کنید. به وسیله کاما متمایز سازی کنید.";
+$l['settings_desc_sortby'] = "انتخاب کنید که بازی ها بر چه اساسی چیدمان شوند.";
+$l['settings_desc_order'] = "نحوه چیدمان بازی هارا انتخاب کنید.";
+$l['settings_desc_maxscores'] = "تعداد امتیازات پیش فرض که در هر صفحه نمایش پیدا می کنند.";
+$l['settings_desc_set_maxscores'] = "گزینه هایی را که کاربران می توانند به عنوان مقدار ماکزیمیم نتایج امتیازات در هر صفحه مشاهده کنند را وارد کنید. ";
+$l['settings_desc_new_game'] = "تعداد روز هایی که یک بازی به عنوان جدید نشانه گذاری میشود.";
+$l['settings_desc_theme'] = "پوسته پیش فرض بخش بازی را انتخاب کنید.";
+$l['settings_desc_online'] = "انتخاب کنید که جعبه افراد آنلاین در کجا نمایش پیدا کند.";
 
-$l['settings_desc_stats_global'] = "View Game Section statistics on the global page?";
-$l['settings_desc_stats_cats'] = "View the statistics of the category where you are?";
-$l['settings_desc_stats_games_max'] = "The number of last games and most played games that must be shown in the statistics.";
-$l['settings_desc_stats_lastchamps_max'] = "The number of last champions that must be shown in the statistics.";
-$l['settings_desc_stats_lastscores_max'] = "The number of last scores that must be shown in the statistics.";
-$l['settings_desc_stats_bestplayers'] = "Show the 3 best players of your board.";
-$l['settings_desc_stats_randomgames'] = "Show random games in the statistics.";
-$l['settings_desc_stats_randomgames_max'] = "The number of random games that must be shown in the statistics.";
-$l['settings_desc_stats_lastchamps_advanced'] = "Do you want to hold a log of the last champions on your Game Section?<br />\n<br />\n<strong>Note:</strong> When this option was disabled, and you activate it now, then you have to run \"Repair Advanced Last Champions\".";
-$l['settings_desc_stats_lastchamps_advanced_max'] = "The number of champions that must be logged and shown.<br />\n<br />\n<strong>Note:</strong> When you change this option, you have to run \"Repair Advanced Last Champions\".";
-$l['settings_desc_stats_userstats_multipages'] = "Do you want to activate the multipages for the User Statistics.";
+$l['settings_desc_stats_global'] = "نمایش آمار بخش بازی در صفحه سراسری؟";
+$l['settings_desc_stats_cats'] = "نمایش آمار دسته بندی ها در مکانی که شما هستید؟";
+$l['settings_desc_stats_games_max'] = "تعدا آخرین بازی ها و بیشترین بازی های انجام گرفته که در بخش آمار به نمایش در می آیند.";
+$l['settings_desc_stats_lastchamps_max'] = "تعداد آخرین قهرمانانی که در بخش آمار به نمایش در می آید.";
+$l['settings_desc_stats_lastscores_max'] = "تعداد آخرین امتیازاتی که در بخش آمار به نمایش در می آید.";
+$l['settings_desc_stats_bestplayers'] = "نمایش 3 بازیکن برتر انجمن شما.";
+$l['settings_desc_stats_randomgames'] = "نمایش بازی های تصادفی در بخش آمار.";
+$l['settings_desc_stats_randomgames_max'] = "تعداد بازی های تصادفی که در بخش آمار به نمایش در می آید.";
 
-$l['settings_desc_tournaments_activated'] = "Do you want to activate the tournaments system of the Game Section?";
-$l['settings_desc_tournaments_set_rounds'] = "Enter the options users should be able to select as the number of rounds of a tournament.";
-$l['settings_desc_tournaments_set_roundtime'] = "Enter the options users should be able to select as the maximum number of days for one round of a tournament.";
+$l['settings_desc_tournaments_activated'] = "آیا می خواهید قسمت مسابقات بخش بازی فعال باشد؟";
+$l['settings_desc_tournaments_set_rounds'] = "گزینه هایی را که کاربر می تواند تعداد دور های یک مسابقه را انتخاب کند ، وارد کنید.";
+$l['settings_desc_tournaments_set_roundtime'] = "گزینه هایی را که کاربر می تواند تعداد دور های یک مسابقه در روز را انتخاب کند ، وارد کنید.";
 
-$l['settings_sortby_title'] = "Name";
-$l['settings_sortby_dateline'] = "Date Added";
-$l['settings_sortby_played'] = "Times Played";
-$l['settings_sortby_lastplayed'] = "Last Played";
-$l['settings_sortby_rating'] = "Rating";
+$l['settings_sortby_title'] = "نام";
+$l['settings_sortby_dateline'] = "تاریخ افزوده شدن";
+$l['settings_sortby_played'] = "دفعات بازی";
+$l['settings_sortby_lastplayed'] = "آخریت بازی";
+$l['settings_sortby_rating'] = "رتبه";
 
-$l['settings_order_ASC'] = "Ascending";
-$l['settings_order_DESC'] = "Descending";
+$l['settings_order_ASC'] = "صعودی";
+$l['settings_order_DESC'] = "نزولی";
 
-$l['settings_online_never'] = "Never";
-$l['settings_online_only'] = "Only On Games Pages";
-$l['settings_online_every'] = "Every Page";
+$l['settings_online_never'] = "هرگز";
+$l['settings_online_only'] = "فقط در صفحات بازی ها";
+$l['settings_online_every'] = "هر صفحه ای";
 ?>
