@@ -1,5 +1,5 @@
-INSTALATION INSTRUCTIONS FOR THE GAME SECTION
+روش نصب پلاگین بخش بازی برای مای‌بی‌بی
 
-1. UPLOAD THE FILES TO YOUR MYBB FORUM
+۱- ابتدا این فایل‌ها را در جایی که مای‌بی‌بی را نصب کرده‌اید بارگذاری کنید
 
-2. ACTIVATE THE PLUGIN
+۲- پلاگین را فعال کنید.
