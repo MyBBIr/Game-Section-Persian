@@ -78,7 +78,7 @@ var Rating = {
 			message = request.responseText.match(/<error>(.*)<\/error>/);
 			if(!message[1])
 			{
-				message[1] = 'An unknown error occurred.';
+				message[1] = 'یک خطای ناشناخته رخ داده‌است.';
 			}
 			if(this.spinner)
 			{
@@ -86,7 +86,7 @@ var Rating = {
 				this.spinner = '';
 			}
 			document.body.style.cursor = 'default';
-			alert('There was an error performing the update.\n\n'+message[1]);
+			alert('یک خطا در هنگام بروزرسانی وجود دارد.\n\n'+message[1]);
 		}
 		else if(request.responseText.match(/<success>(.*)<\/success>/))
 		{
