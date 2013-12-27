@@ -12,7 +12,7 @@ function search_games_handle(request)
 		message = request.responseText.match(/<error>(.*)<\/error>/);
 		if(!message[1])
 		{
-			message[1] = "An unknown error occurred.";
+			message[1] = "یک خطای ناشناخته رخ داده است.";
 		}
 		if(this.spinner)
 		{
