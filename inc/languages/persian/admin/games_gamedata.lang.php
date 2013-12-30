@@ -27,7 +27,7 @@
  *
  ***************************************************************************/
 
-$l['upload'] = "Upload";
+$l['upload'] = "بارگذاری";
 $l['cantmakedir'] = "Can't make this directory:<br />\n{1}";
 $l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
 $l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n";
