@@ -27,30 +27,30 @@
  *
  ***************************************************************************/
 
-$l['nav_overview_categories'] = "Overview of the Categories";
-$l['nav_add_category'] = "Add Category";
-$l['nav_edit_category'] = "Edit Category";
+$l['nav_overview_categories'] = "مروری بر دسته بندی ها";
+$l['nav_add_category'] = "افزودن دسته بندی";
+$l['nav_edit_category'] = "ویرایش دسته بندی";
 
-$l['nav_overview_categories_desc'] = "Here you can manage the categories on your board.";
-$l['nav_add_category_desc'] = "Here you can add a Game Section category.";
-$l['nav_edit_category_desc'] = "Here you can edit the selected Game Section category.";
+$l['nav_overview_categories_desc'] = "در اینجا شما میتوانید دسته بندی های انجمن خود را ویرایش کنید.";
+$l['nav_add_category_desc'] = "در اینجا شما میتوانید یک دسته بندی جدید به بخش بازی اضافه کنید.";
+$l['nav_edit_category_desc'] = "در اینجا شما میتوانید دسته بندی انتخاب شده را ویرایش کنید.";
 
-$l['show_games'] = "Show Games";
-$l['no_categories'] = "There are no categories.";
+$l['show_games'] = "نمایش بازی ها";
+$l['no_categories'] = "هیچ دسته بندی وجود ندارد.";
 
-$l['cat_title'] = "Category name";
-$l['cat_image'] = "Category image";
-$l['cat_active'] = "Active category";
+$l['cat_title'] = "نام دسته بندی";
+$l['cat_image'] = "تصویر دسته بندی";
+$l['cat_active'] = "فعال کردن دسته بندی";
 
-$l['cat_image_desc'] = "This image will be shown beside the category name.";
+$l['cat_image_desc'] = "این تصویر در کنار نام دسته بندی نمایش داده میشود.";
 
 $l['error_missing_title'] = "You didn't enter a name for this category";
 $l['error_missing_active'] = "You didn't select if you want to have the category active";
 $l['categorydoesntexist'] = "The selected category doesn't exist.";
 
-$l['delete_category_confirmation'] = "Are you sure you want to delete this category?";
+$l['delete_category_confirmation'] = "آیا شما مطمئن هستید که میخواهید این دسته بندی را حذف کنید؟";
 
-$l['added_category'] = "The category is successfully added.";
-$l['edited_category'] = "The category is successfully edited.";
-$l['deleted_category'] = "The category is successfully deleted.";
+$l['added_category'] = "دسته بندی با موفقیت افزوده شد.";
+$l['edited_category'] = "دسته بندی با موفقیت ویرایش شد.";
+$l['deleted_category'] = "دسته بندی با موفقیت حذف شد.";
 ?>
