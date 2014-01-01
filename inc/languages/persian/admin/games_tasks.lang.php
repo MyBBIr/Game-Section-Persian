@@ -6,6 +6,9 @@
  *   
  *   Website: http://www.gamesection.org
  *   
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
+ * 
  *   Last modified: 03/01/2010 by Paretje
  *
  ***************************************************************************/
@@ -27,6 +30,6 @@
  *
  ***************************************************************************/
 
-$l['task_tournamentstatus_ran'] = "The Game Section Tournament Status task successfully ran.";
-$l['task_gamescleanup_ran'] = "The Game Section cleanup task successfully ran.";
+$l['task_tournamentstatus_ran'] = "وضعیت کار بخش بازی مسابقات با موفقیت اجرا شده است.";
+$l['task_gamescleanup_ran'] = "وظیفه پاکسازی بخش بازی با موفقیت اجرا شده است.";
 ?>
