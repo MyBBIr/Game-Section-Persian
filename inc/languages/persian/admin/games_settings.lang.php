@@ -30,9 +30,9 @@
  *
  ***************************************************************************/
 
-$l['nav_manage_settings'] = "Manage Settings";
+$l['nav_manage_settings'] = "مدیریت تنظیمات";
 
-$l['nav_manage_settings_desc'] = "This section allows you to manage all the settings relating to the Game Section installation on your board.";
+$l['nav_manage_settings_desc'] = "این بخش به شما امکان می دهد تا تنظیمات مربوط به بخش بازی را مدیریت کنید.";
 
 $l['setting_count'] = "1 تنظیم";
 $l['settings_count'] = "{1}  تنظیمات ";
@@ -79,7 +79,7 @@ $l['settings_title_tournaments_activated'] = "سیستم مسابقه فعال �
 $l['settings_title_tournaments_set_rounds'] = "قابل انتخاب بودن دفعات یک مسابقه";
 $l['settings_title_tournaments_set_roundtime'] = "قابل انتخاب بودن دفعات بازی در روز";
 
-$l['settings_desc_closed'] = "مدیران میتوانند در این حالت به بخش بازی دسترسی داشته باشند .<br />\n<br />\n<strong>Administrators will have still access to the Game Section</strong>";
+$l['settings_desc_closed'] = "مدیران میتوانند در این حالت به بخش بازی دسترسی داشته باشند .<br />\n<br />\n<strong>مدیران میتوانند به بخش بازی دسترسی داشته باشند</strong>";
 $l['settings_desc_banned'] = "در این بخش می توانید نام های کاربری محروم از بخش بازی را وارد کنید.<<br />\n<br />\nنمونه : User 1,User2,user3";
 
 $l['settings_desc_maxgames'] = "تعداد بازی های پیش فرض درون هر صفحه";
