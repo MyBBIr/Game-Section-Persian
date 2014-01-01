@@ -38,7 +38,7 @@ $l['nav_categories'] = "دسته بندی ها";
 $l['nav_settings'] = "تنظیمات";
 $l['nav_themes'] = "قالب ها";
 $l['nav_templates'] = "پوسته ها";
-$l['nav_tools'] = "ابزار;
+$l['nav_tools'] = "ابزار";
 $l['nav_version'] = "چک کردن نسخه";
 
 $l['can_manage_games'] = "بازی ها را بتواند مدیریت کند؟";
