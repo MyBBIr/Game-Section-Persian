@@ -5,6 +5,9 @@
  *   Copyleft: © 2006-2009 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ * 
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
  *   
  *   Last modified: 17/04/2009 by Paretje
  *
@@ -27,35 +30,36 @@
  *
  ***************************************************************************/
 
-$l['nav_tools_desc'] = "Here you can repair the Game Sectin with tools when there gone something wrong.";
+$l['nav_tools_desc'] = "اینجا شما میتوانید در مواقعی که بخش بازی دچار مشکل شد با ابزاری آن را تعمیر کنید. ";
 
-$l['repair_scores'] = "Repair Scores";
-$l['repair_champions'] = "Repair Champions";
-$l['repair_last_champions'] = "Repair Last Champions";
-$l['repair_rating'] = "Repair and Recount Ratings";
-$l['repair_favourites'] = "Repair Favourites";
-$l['repair_tournaments_stats'] = "Repair Tournament Statistics";
-$l['cleanup_gamedata'] = "Clean-up Gamedata";
-$l['repair_permissions'] = "Repair Permissions";
+$l['repair_scores'] = "تعمیر امتیازات";
+$l['repair_champions'] = "تعمیر بخش قهرمانان";
+$l['repair_last_champions'] = "تعمیر آخرین قهرمانان";
+$l['repair_rating'] = "تعمیر و بازشماری اعتبار";
+$l['repair_favourites'] = "تعمیر محبوب ها";
+$l['repair_tournaments_stats'] = "تعمیر آمار مسابقات";
+$l['cleanup_gamedata'] = "پاک کردن دیتای بازی ها";
+$l['repair_permissions'] = "تعمیر دسترسی ها";
 
-$l['repair_scores_desc'] = "This will delete the double scores on your board.";
-$l['repair_champions_desc'] = "This will update the champions on your board, based on the scores.";
-$l['repair_last_champions_desc'] = "This will repair the cache of the last champions.";
-$l['repair_rating_desc'] = "This will recount the rating of a game, and delete the double ratings.";
-$l['repair_favourites_desc'] = "This will delete the double favourites on your board.";
-$l['repair_tournaments_stats_desc'] = "This will recount the tournament statistics.";
-$l['cleanup_gamedata_desc'] = "This will clean up the unnecessary gamedata.";
-$l['repair_permissions_desc'] = "This will repair the default usergroup and administration permissions of the Game Section.";
+$l['repair_scores_desc'] = "این فرایند امتیازاتی که دوبار تکرار شده اند را حذف می کند.";
+$l['repair_champions_desc'] = "این فرایند با توجه به امتیازات قهرمانان را به روز می کند.";
+$l['repair_last_champions_desc'] = "این فرایند کش آخرین قهرمان هارا بازسازی می کند.";
+$l['repair_rating_desc'] = "این فرایند رتبه دهی به بازی ها را برشماری می کند و همچنین رتبه هایی که دوبار تکرار شده اند را حذف می کند.";
+$l['repair_favourites_desc'] = "این فرایند علاقه مندی هایی را که دوبار تکرار شده اند ، حذف می کند.";
+$l['repair_tournaments_stats_desc'] = "این ابزار بخش مسابقات را تعمیر و بازشماری میکند.";
+$l['cleanup_gamedata_desc'] = "این ابزار دیتای بی استفاده ی بازی ها را حذف می کند.";
+$l['repair_permissions_desc'] = "با این کار گروه کاربری پیش فرض و دسترسی مدیریت تعمیر میشوند.";
+$l['not_writable'] = "بخش زیر دسترسی مجاز 777 را ندارد:<br />
+{1}";
+$l['not_deleteable'] = "فایل / بخش زیر قابلیت حذف شدن را ندارد زیرا دسترسی مجاز 777 برای آن تعریف نشده است:<br />
+{1}";
 
-$l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
-$l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n{1}";
-
-$l['repaired_scores'] = "The scores are successfully repaired.";
-$l['repaired_champions'] = "The champions are successfully repaired.";
-$l['repaired_last_champions'] = "The last champions cache is successfully repaired.";
-$l['repaired_rating'] = "The ratings are successfully reapaired and recounted.";
-$l['repaired_favourites'] = "The favourites are successfully repaired.";
-$l['repaired_tournaments_stats'] = "The tournament statistics are successfully recounted..";
-$l['cleanedup_gamedata'] = "The gamedata is successfully cleaned up";
-$l['repaired_permissions'] = "The permissions are successfully repaired.";
+$l['repaired_scores'] = "امتیازات با موفقیت تعمیر شدند.";
+$l['repaired_champions'] = "بخش قهرمانان با موفقیت تعمیر شدند.";
+$l['repaired_last_champions'] = "کش آخرین قهرمانان با موفقیت تعمیر شد.";
+$l['repaired_rating'] = "اعتبار ها با مفوقیت تعمیر و بازشماری شدند.";
+$l['repaired_favourites'] = "علاقه مندی ها با موفقیت تعمیر شدند.";
+$l['repaired_tournaments_stats'] = "آمار مسابقات با موفقیت باشماری شدند.";
+$l['cleanedup_gamedata'] = "دیتای بازی ها با موفقیت پاک شدند.";
+$l['repaired_permissions'] = "دسترسی ها با موفقیت تعمیر شدند.";
 ?>
