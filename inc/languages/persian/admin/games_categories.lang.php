@@ -6,6 +6,9 @@
  *   
  *   Website: http://www.gamesection.org
  *   
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
+ * 
  *   Last modified: 25/06/2008 by Paretje
  *
  ***************************************************************************/
@@ -44,9 +47,9 @@ $l['cat_active'] = "فعال کردن دسته بندی";
 
 $l['cat_image_desc'] = "این تصویر در کنار نام دسته بندی نمایش داده میشود.";
 
-$l['error_missing_title'] = "You didn't enter a name for this category";
-$l['error_missing_active'] = "You didn't select if you want to have the category active";
-$l['categorydoesntexist'] = "The selected category doesn't exist.";
+$l['error_missing_title'] = "شما هیچ نامی برای این دسته بندی وارد نکرده اید.";
+$l['error_missing_active'] = "اگر میخواهید دسته بندی مورد نظر فعال شود آن را انتخاب کنید.";
+$l['categorydoesntexist'] = "دسته بندی انتخاب شده معتبر نیست.";
 
 $l['delete_category_confirmation'] = "آیا شما مطمئن هستید که میخواهید این دسته بندی را حذف کنید؟";
 
