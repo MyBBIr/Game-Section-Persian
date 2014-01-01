@@ -3,6 +3,9 @@
  *
  *   Game Section for MyBB
  *   Copyleft: © 2006-2008 The Game Section Development Group
+ * 
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
  *   
  *   Website: http://www.gamesection.org
  *   
@@ -28,28 +31,28 @@
  ***************************************************************************/
 
 $l['upload'] = "بارگذاری";
-$l['cantmakedir'] = "Can't make this directory:<br />\n{1}";
-$l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
-$l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n";
-$l['not_copyable'] = "The follow file couldn't be deleted, possible it's because the source file isn't readable, or the destination already exists and has no chmod 777:<br />\n";
+$l['cantmakedir'] = "این بخش ایجاد نشد :<br />\n{1}";
+$l['not_writable'] = "دسترسی بخش مقابل 777 نیست:<br />\n{1}";
+$l['not_deleteable'] = "بخش/فایل مورد نظر حذف نمی شود , ممکن است دسترسیش 777 نباشد :<br />\n";
+$l['not_copyable'] = "فایل مورد نظر حذف نمی شود ، ممکن است وجود نداشته باشد و یا دسترسی آن 777 نباشد :<br />\n";
 
-$l['nav_manage_gamedata'] = "Manage Gamedata";
+$l['nav_manage_gamedata'] = "مدیریت دیتای بازی";
 
-$l['nav_manage_gamedata_desc'] = "Here you can manage the gamedata on your board.";
+$l['nav_manage_gamedata_desc'] = "در اینجا شما میتوانید دیتای بازی های انجمن خودتان را مدیریت کنید .";
 
-$l['gamedata_upload'] = "Upload gamedata";
-$l['gamedata_directory'] = "Make subdirectory";
-$l['directorydoesntexist'] = "The directory you want to access doesn't exist.<br />\nClick <a href=\"index.php?module=games/gamedata&amp;action=add_directory&amp;name={1}\">here</a> to make the folder.";
-$l['no_gamedata'] = "There are no files or directories in this directory.";
+$l['gamedata_upload'] = "آپلود دیتای بازی";
+$l['gamedata_directory'] = "ایجاد زیر پوشه";
+$l['directorydoesntexist'] = "بخشی که شما قصد مشاهده آن را دارید وجود ندارد.<br />\nبرای ساخت بخش مورد نظر <a href=\"index.php?module=games/gamedata&amp;action=add_directory&amp;name={1}\">اینجا را</a>  کلیک کنید.";
+$l['no_gamedata'] = "هیچ فایل یا دسته بندی در این بخش وجود ندارد.";
 
-$l['error_missing_file'] = "You didn't upload a file, or there was a problem with the upload of the file";
-$l['error_missing_directoryname'] = "You didn't enter a name for the directory";
+$l['error_missing_file'] = "شما هیچ فایلی را انتخاب نکرده اید و یا مشکلی در هنگام اپلود فایل رخ داده است.";
+$l['error_missing_directoryname'] = "شما هیچ نامی برای این بخش وارد نکرده اید.";
 
-$l['delete_file_confirmation'] = "Are you sure you want to delete this file?";
-$l['delete_directory_confirmation'] = "Are you sure you want to delete this directory?";
+$l['delete_file_confirmation'] = "آیا شما مطمئن هستید که مقصد حذف کردن این فایل را دارید؟";
+$l['delete_directory_confirmation'] = "آیا شما مطمئن هستید که میخواهید این بخش را حذف کنید؟";
 
-$l['added_file'] = "The file is successfully added.";
-$l['added_directory'] = "The directory is successfully added.";
-$l['deleted_file'] = "The file is successfully deleted.";
-$l['deleted_directory'] = "The directory is successfully deleted.";
+$l['added_file'] = "این فایل با موفقیت اضافه شد.";
+$l['added_directory'] = "این بخش با موفقیت افزوده شد.";
+$l['deleted_file'] = "این فایل با موفقیت حذف شد.";
+$l['deleted_directory'] = "این بخش با موفقیت حذف شد.";
 ?>
