@@ -78,7 +78,7 @@ $l['tournamentmaxtriesreached'] = "شما به حداکثر دعات تلاش ب
 $l['tournamentended'] = "این دور به پایان رسید .";
 
 $l['tournamentsstatistics'] = "آمار مسابقات";
-$l['tournamentswon'] = "برنده های مسابقه :";
+$l['tournamentswon'] = "برنده گان مسابقه :";
 $l['tournamentsjoined'] = "شرکت کنندگان در مسابقه :";
 
 $l['options_tournaments'] = "گزینه های مسابقه";
