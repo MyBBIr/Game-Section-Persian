@@ -30,32 +30,32 @@
 $l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
 $l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n";
 
-$l['nav_overview_themes'] = "Overview of the Themes";
-$l['nav_add_theme'] = "Add Theme";
-$l['nav_import_theme'] = "Import Theme";
-$l['nav_edit_theme'] = "Edit Theme";
-$l['nav_export_theme'] = "Export Theme";
+$l['nav_overview_themes'] = "بررسی اجمالی از تم";
+$l['nav_add_theme'] = "افزودن پوسته";
+$l['nav_import_theme'] = "بارگذاری پوسته";
+$l['nav_edit_theme'] = "ویرایش پوسته";
+$l['nav_export_theme'] = "خروجی گرفتن از پوسته";
 
-$l['nav_overview_themes_desc'] = "Here you can manage the Game Section themes on your board.";
-$l['nav_add_theme_desc'] = "Here you can add a Game Section theme.";
-$l['nav_import_theme_desc'] = "Here you can import a Game Section theme.";
-$l['nav_edit_theme_desc'] = "Here you can edit the selected Game Section theme.";
-$l['nav_export_theme_desc'] = "Here you can export a Game Section theme.";
+$l['nav_overview_themes_desc'] = "اینجا شما میتوانید پوسته ی بخش بازی انجمن خودتان را مدیریت کنید.";
+$l['nav_add_theme_desc'] = "اینجا شما میتوانید یک پوسته جدید اضافه کنید.";
+$l['nav_import_theme_desc'] = "اینجا شما میتوانید پوسته جدیدی را بارگذاری کنید.";
+$l['nav_edit_theme_desc'] = "اینجا شما میتوانید پوسته ی انتخاب شده ی خود را ویرایش کنید.";
+$l['nav_export_theme_desc'] = "اینجا شما میتوانید از پوسته خود خروجی بگیرید.";
 
-$l['export'] = "Export";
-$l['no_themes'] = "There are no themes.";
+$l['export'] = "خروجی گرفتن";
+$l['no_themes'] = "پوسته ای وجود ندارد.";
 
-$l['theme_name'] = "Theme name";
-$l['theme_directory'] = "Image directory";
-$l['theme_catsperline'] = "Maximum categories per line";
-$l['theme_css'] = "Theme CSS";
-$l['theme_active'] = "Active theme";
-$l['theme_file'] = "Import file";
+$l['theme_name'] = "نام پوسته";
+$l['theme_directory'] = "دایرکتوری تصاویر";
+$l['theme_catsperline'] = "بیشترین دسته بندی ها در هر سطر";
+$l['theme_css'] = "سی اس اس پوسته";
+$l['theme_active'] = "فعال کردن پوسته";
+$l['theme_file'] = "بارگذاری فایل";
 
 $l['theme_export_copyleft'] = "Copyleft";
-$l['theme_export_website'] = "Website";
-$l['theme_export_support'] = "Support";
-$l['theme_export_license'] = "License";
+$l['theme_export_website'] = "وب سایت";
+$l['theme_export_support'] = "پشتیبانی";
+$l['theme_export_license'] = "مجوز";
 
 $l['theme_directory_desc'] = "The directory based in the games directory for the location of the images used in this theme.";
 $l['theme_catsperline_desc'] = "The number of categories shown at one line on the Game Section in the overview.";
@@ -72,13 +72,13 @@ $l['error_missing_catsperline'] = "You didn't fill in the maximum categories per
 $l['error_missing_active'] = "You didn't select if you want to have the theme active";
 $l['error_missing_theme_file'] = "You didn't upload a php file to import the theme from.";
 $l['error_uploadfailed'] = "There is an error with the upload of the theme file.";
-$l['themealreadyexist'] = "A theme with the same name already exists.";
-$l['themedoesntexist'] = "The selected theme doesn't exist.";
+$l['themealreadyexist'] = "یک پوسته ی همنام در حال حاضر وجود دارد.";
+$l['themedoesntexist'] = "پوسته انتخاب شده موجود نیست.";
 
-$l['delete_theme_confirmation'] = "Are you sure you want to delete this theme?";
+$l['delete_theme_confirmation'] = "ایا شما می خواهید این پوسته را حذف نمایید؟";
 
-$l['added_theme'] = "The theme is successfully added.";
-$l['imported_theme'] = "The theme is successfully imported.";
-$l['edited_theme'] = "The theme is successfully edited.";
-$l['deleted_theme'] = "The theme is successfully deleted.";
+$l['added_theme'] = "پوسته با موفقیت افزوده شد.";
+$l['imported_theme'] = "پوسته ی انتخاب شده با موفقیت بارگذاری شد.";
+$l['edited_theme'] = "پوسته ی انتخاب شده با موفقیت ویرایش شد.";
+$l['deleted_theme'] = "پوسته با موفقیت ویرایش شد.";
 ?>
