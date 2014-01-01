@@ -5,6 +5,9 @@
  *   Copyleft: © 2006-2008 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ * 
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
  *   
  *   Last modified: 24/06/2008 by Paretje
  *
@@ -27,36 +30,36 @@
  *
  ***************************************************************************/
 
-$l['nav_manage_templates'] = "Manage Templates";
-$l['nav_add_template'] = "Add Template";
-$l['nav_edit_template'] = "Edit Template";
+$l['nav_manage_templates'] = "مدیریت قالب ها";
+$l['nav_add_template'] = "افزودن قالب";
+$l['nav_edit_template'] = "ویرایش قالب";
 
-$l['nav_manage_templates_desc'] = "Here you can manage the templates of the selected Game Section theme.";
-$l['nav_add_template_desc'] = "Here you can add a template for the selected Game Section theme.";
-$l['nav_edit_template_desc'] = "Here you can edit the selected Game Section template.";
+$l['nav_manage_templates_desc'] = "در اینجا شما می توانید قالب های بخش بازی را مدیریت کنید.";
+$l['nav_add_template_desc'] = "در ایجا شما میتوانید یک قالب به عنوان پوسته بخش بازی انتخاب کنید.";
+$l['nav_edit_template_desc'] = "اینجا شما میتوانید قالب بخش بازی را ویرایش کنید.";
 
-$l['template_set_global'] = "Global Templates";
+$l['template_set_global'] = "پوسته عمومی";
 $l['template_set'] = "Templates of {1}";
-$l['expand'] = "Expand";
+$l['expand'] = "توسعه دادن";
 
-$l['revert'] = "Revert to Original";
-$l['no_templates'] = "There are no templates.";
+$l['revert'] = "برگشت به حالت اولیه";
+$l['no_templates'] = "قالبی وجود ندارد.";
 
-$l['template_title'] = "Template Name";
-$l['template'] = "Template";
-$l['save_continue'] = "Save and Continue Editing";
-$l['save_return'] = "Save and Return to Templates";
+$l['template_title'] = "نام قالب";
+$l['template'] = "قالب";
+$l['save_continue'] = "ذخیره و ادامه ویرایش";
+$l['save_return'] = "ذخیره و برگشت به قالب ها";
 
-$l['error_missing_title'] = "Title";
-$l['error_missing_template'] = "Temp";
-$l['themedoesntexist'] = "The selected theme doesn't exist.";
-$l['templatedoesntexist'] = "The selected template doesn't exist.";
+$l['error_missing_title'] = "عنوان";
+$l['error_missing_template'] = "قالب";
+$l['themedoesntexist'] = "پوسته انتخاب شده موجود نیست.";
+$l['templatedoesntexist'] = "قالب انتخاب شده موجود نیست.";
 
-$l['revert_template_confirmation'] = "Are you sure you want to revert this template?";
-$l['delete_template_confirmation'] = "Are you sure you want to delete this template?";
+$l['revert_template_confirmation'] = "ایا شما مطمئن هستید که میخواهید این قالب را برگشت دهید؟";
+$l['delete_template_confirmation'] = "ایا شما مطمئن هستید که می خواهید این قالب را حذف کنید؟";
 
-$l['added_template'] = "The template is successfully added.";
-$l['edited_template'] = "The template is successfully edited.";
-$l['reverted_template'] = "The template is successfully reverted.";
-$l['deleted_template'] = "The template is successfully deleted.";
+$l['added_template'] = "قالب با موفقیت افزوده شد.";
+$l['edited_template'] = "قالب با موفقیت ویرایش شد..";
+$l['reverted_template'] = "قالب با موفقیت برگشت داده شد.";
+$l['deleted_template'] = "قالب با موفقیت ویرایش شد.";
 ?>
