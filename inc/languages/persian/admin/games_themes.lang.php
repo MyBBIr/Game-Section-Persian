@@ -5,6 +5,9 @@
  *   Copyleft: © 2006-2008 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ * 
+ *   persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
  *   
  *   Last modified: 20/09/2008 by Paretje
  *
@@ -27,10 +30,10 @@
  *
  ***************************************************************************/
 
-$l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
-$l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n";
+$l['not_writable'] = "دسترسی دایرکتوری زیر 777 نیست :<br />\n{1}";
+$l['not_deleteable'] = "فایل/دایرکتوری زیر حذف نشد ، ممکن است دسترسی آن 777 نباشد :<br />\n";
 
-$l['nav_overview_themes'] = "بررسی اجمالی از تم";
+$l['nav_overview_themes'] = "نمای کلی پوسته ها";
 $l['nav_add_theme'] = "افزودن پوسته";
 $l['nav_import_theme'] = "بارگذاری پوسته";
 $l['nav_edit_theme'] = "ویرایش پوسته";
@@ -48,30 +51,28 @@ $l['no_themes'] = "پوسته ای وجود ندارد.";
 $l['theme_name'] = "نام پوسته";
 $l['theme_directory'] = "دایرکتوری تصاویر";
 $l['theme_catsperline'] = "بیشترین دسته بندی ها در هر سطر";
-$l['theme_css'] = "سی اس اس پوسته";
+$l['theme_css'] = "Css پوسته";
 $l['theme_active'] = "فعال کردن پوسته";
 $l['theme_file'] = "بارگذاری فایل";
 
-$l['theme_export_copyleft'] = "Copyleft";
+$l['theme_export_copyleft'] = "کپی رایت";
 $l['theme_export_website'] = "وب سایت";
 $l['theme_export_support'] = "پشتیبانی";
 $l['theme_export_license'] = "مجوز";
 
-$l['theme_directory_desc'] = "The directory based in the games directory for the location of the images used in this theme.";
-$l['theme_catsperline_desc'] = "The number of categories shown at one line on the Game Section in the overview.";
-$l['theme_css_desc'] = "The additional CSS contents which is used in this theme. You can include this CSS in your templates with this code:<br />
+$l['theme_directory_desc'] = "دایرکتوری عکس های استفاده شده در این پوسته.";
+$l['theme_catsperline_desc'] = "تعداد دسته بندی هایی که در یک خط در بخش نمای کلی بخش بازی به نمایش در می آید.";
+$l['theme_css_desc'] = "Css های اضافی که در این پوسته استفاده می شود. شما می توانید این Css را به وسیله این کد به قالب های خود اضافه کنید. <br />
 &lt;link type=\"text/css\" rel=\"stylesheet\" href=\"{\$mybb->settings['bburl']}/games/css.php?tid={\$theme_games['tid']}\" /&gt;";
-
-$l['theme_export_copyleft_desc'] = "Copyleft ...";
-$l['theme_export_support_desc'] = "The place where users can get support on this theme.";
-$l['theme_export_license_desc'] = "The license under which you want to license this theme. When you want to license it under a personal one, you can add a link to the text of it.";
-
-$l['error_missing_name'] = "You didn't enter a name for this theme";
-$l['error_missing_directory'] = "You didn't enter an image directory for this theme";
-$l['error_missing_catsperline'] = "You didn't fill in the maximum categories per line option for this theme";
-$l['error_missing_active'] = "You didn't select if you want to have the theme active";
-$l['error_missing_theme_file'] = "You didn't upload a php file to import the theme from.";
-$l['error_uploadfailed'] = "There is an error with the upload of the theme file.";
+$l['theme_export_copyright_desc'] = "کپی رایت ...";
+$l['theme_export_support_desc'] = "جایی که کاربران می توانند از پشتیبانی این پوسته استفاده کنند.";
+$l['theme_export_license_desc'] = "تحت چه لایسنسی می خواهید این پوسته قرار گیرد؟ هنگامی که میخواهید تحت یک شخص این پوسته را لایسنس کنید میتوانید یک لینک به نوشته ی آن اضافه کنید.";
+$l['error_missing_name'] = "شما نامی برای این پوسته وارد نکرده اید.";
+$l['error_missing_directory'] = "شما دایرکتوری تصاویر پوسته را وارد نکرده اید.";
+$l['error_missing_catsperline'] = "شما مقدار بیشترین تعداد دسته بندی ها در هر خظ را پر نکرده اید.";
+$l['error_missing_active'] = "شما انتخاب نکرده اید که این پوسته فعال باشد.";
+$l['error_missing_theme_file'] = "شما فایل php ای برای ایمپورت پوسته از آن انتخاب نکرده اید.";
+$l['error_uploadfailed'] = "در آپلود این پوسته مشکلی بوجود آمده است.";
 $l['themealreadyexist'] = "یک پوسته ی همنام در حال حاضر وجود دارد.";
 $l['themedoesntexist'] = "پوسته انتخاب شده موجود نیست.";
 
