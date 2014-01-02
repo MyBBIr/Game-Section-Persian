@@ -5,6 +5,9 @@
  *   Copyleft: © 2006-2009 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
+ * 
+ *   Persian translate by : My-bb.ir - mehdi karimi (Mellat)
+ *   Website: http://Mellat-design.ir
  *   
  *   Last modified: 14/04/2009 by Paretje
  *
@@ -27,10 +30,10 @@
  *
  ***************************************************************************/
 
-$l['cantmakedir'] = "Can't make this directory:<br />\n{1}";
-$l['not_writable'] = "The follow directory has no chmod 777:<br />\n{1}";
-$l['not_deleteable'] = "The follow file/directory couldn't be deleted, possible it's because it has no chmod 777:<br />\n{1}";
-$l['not_copyable'] = "The follow file couldn't be copied, possible it's because the source file isn't readable, or the destination already exists and has no chmod 777:<br />\n{1}";
+$l['cantmakedir'] = "دایرکتوری زیر ایجاد نشد :<br />\n{1}";
+$l['not_writable'] = "دسترسی دایرکتوری زیر 777 نیست :<br />\n{1}";
+$l['not_deleteable'] = "فایل/دایرکتوری زیر حذف نشد ، ممکن است دسترسی آن 777 نباشد  :<br />\n{1}";
+$l['not_copyable'] = "فایل زیر کپی نشد ، ممکن است قابل خواندن نباشد و یا دسترسی آن 777 نیست :<br />\n{1}";
 
 $l['nav_overview'] = "هفتگی";
 $l['nav_add_game'] = "افزودن بازی";
@@ -39,10 +42,10 @@ $l['nav_add_game_tar'] = "افزودن بازی (Tar)";
 $l['nav_edit_game'] = "ویرایش بازی";
 
 $l['nav_overview_desc'] = "اینجا شما میتوانید بازی های انجمن خودتون رو ویرایش کنید.";
-$l['nav_add_game_desc'] = "Here you can add a game on your board.";
-$l['nav_add_game_simple_desc'] = "Here you can add a game on your board, using the files which the tar of the game contains.";
-$l['nav_add_game_tar_desc'] = "Here you can add	a game on your board, using the tar-file of the game.";
-$l['nav_edit_game_desc'] = "Here you can edit a game on your board.";
+$l['nav_add_game_desc'] = "اینجا شما میتوانید یک بازی جدید اضافه کنید.";
+$l['nav_add_game_simple_desc'] = "در اینجا شما میتوانید یک بازی جدید به انجمن خود اضافه کنید با استفاده از فایل های tar شامل بازی.";
+$l['nav_add_game_tar_desc'] = "اینجا شما میتواندی یک بازی جدید به انجمن خود اضافه کنید با استفاده از فایل tar بازی.";
+$l['nav_edit_game_desc'] = "اینجا شما میتوانید یک بازی از انجمن خودتون رو ویرایش کنید.";
 
 $l['search'] = "جستجو";
 $l['active'] = "فعال:";
@@ -84,37 +87,35 @@ $l['game_score_type'] = "نوع امتیاز";
 $l['game_high'] = "زیاد";
 $l['game_low'] = "کم";
 $l['game_active'] = "بازی فعال";
-$l['game_force'] = "Force adding game";
+$l['game_force'] = "اجبار افزودن بازی";
 $l['game_php'] = "فایل پی اچ پی بازی ";
 $l['game_swf'] = "فایل های فلش بازی";
 $l['game_gif1'] = "فایل gif بزرگ بازی";
 $l['game_gif2'] = "فایل gif کوچک بازی";
-$l['game_gamedata'] = "دیتای بازی شامل بازی";
+$l['game_gamedata'] = "اطلاعات Gamedata موجود در فایل بازی";
 $l['game_tar'] = "فایل tar بازی";
-
-$l['game_name_desc'] = "When your files are, for example, called example.swf, example1.gif and example2.gif, you to fill in here example.";
-$l['game_force_desc'] = "Do you want to force adding the game, without controlling if the game already exists?";
-
-$l['error_missing_title'] = "You didn't enter a name for this game";
-$l['error_missing_name'] = "You didn't enter the name of the files for this game";
-$l['error_missing_category'] = "There is not a category selected, or the option to don't catogorise.";
-$l['catdoesntexist'] = "The selected category doesn't exist.";
-$l['error_missing_bgcolor'] = "You didn't enter the background color of the game";
-$l['error_missing_width'] = "You didn't enter the width of the game";
-$l['error_missing_height'] = "You didn't enter the height of the game";
-$l['error_missing_score_type'] = "You didn't select the score type of the game";
-$l['error_missing_active'] = "You didn't select if you want to have the game active";
-$l['error_missing_gamedata_sel'] = "You didn't select if there are gamedata files for this game";
-$l['error_missing_game_php'] = "You didn't upload a php file, or there was a problem with the upload of the file";
-$l['error_missing_game_swf'] = "You didn't upload a flash file, or there was a problem with the upload of the file";
-$l['error_missing_game_gifs'] = "You didn't upload (one of) the gif files, or there was a problem with the upload of the files";
-$l['error_missing_game_tar'] = "You didn't upload the tar file, or there was a problem with the upload of the file";
-$l['error_missing_game_tar_swf'] = "There wasn't a flash file in the tar archive, or it couldn't be copied";
-$l['error_missing_game_tar_gif1'] = "There wasn't a gif1 file in the tar archive, or it couldn't be copied";
-$l['error_missing_game_tar_gif2'] = "There wasn't a gif2 file in the tar archive, or it couldn't be copied";
-$l['error_uploadfailed'] = "There is an error with the upload of the game.";
-$l['tar_problem'] = "There is a problem with the tar file.";
-$l['gamealreadyexist'] = "A game with the same filename already exists. When you want to add the game, enable then force adding game.";
+$l['game_name_desc'] = "مکان فایل های شما به عنوان مثال example.swf ، و example1.gif و example2.gif شما مانند نمونه پر کنید.";
+$l['game_force_desc'] = "آیا می خواهید بازی را بدون کنترل اینکه آیا بازی وجود دارد یا خیر اضافه کنید؟";
+$l['error_missing_title'] = "شما نامی برای بازی وارد نکرده اید.";
+$l['error_missing_name'] = "شما نام فایل های این بازی را وارد نکرده اید.";
+$l['error_missing_category'] = "دسته بندی ای انتخاب نشده است.";
+$l['catdoesntexist'] = "دسته بندی مورد نظر وجود ندارد.";
+$l['error_missing_bgcolor'] = "شما رنگ پس زمینه ای را وارد نکرده اید.";
+$l['error_missing_width'] = "شما عرض بازی را وارد نکرده اید.";
+$l['error_missing_height'] = "شما ارتفاع بازی را وارد نکرده اید.";
+$l['error_missing_score_type'] = "شما نوع امتیاز دهی برای این بازی را انتخاب نکرده اید.";
+$l['error_missing_active'] = "شما فعال سازی این بازی را انتخاب نکرده اید.";
+$l['error_missing_gamedata_sel'] = "شما انتخاب نکرده اید که آیا gamedata ای برای این بازی وجود دارد یا خیر؟";
+$l['error_missing_game_php'] = "شما فایل php را آپلود نکرده اید یا اینکه در هنگام آپلود فایل مشکلی بوجود آمده است.";
+$l['error_missing_game_swf'] = "شما فایل flash را آپلود نکرده اید یا اینکه در هنگام آپلود فایل مشکلی بوجود آمده است.";
+$l['error_missing_game_gifs'] = "شما فایل های gif (یا یکی از آن ها ) را آپلود نکرده اید یا اینکه در هنگام آپلود مشکلی بوجود آمده است.";
+$l['error_missing_game_tar'] = "شما فایل tar را آپلود نکرده اید، یا مشکلی در بازگذاری وجود دارد";
+$l['error_missing_game_tar_swf'] = "فایل فلش بازی در بسته tar وجود ندارد، یا غیر قابل کپی کردن است";
+$l['error_missing_game_tar_gif1'] = "فایل gif1در بازی وجود ندارد، یا غیر قابل کپی کردن است.";
+$l['error_missing_game_tar_gif2'] = "فایل gif2 در بازی وجود ندارد، یا غیر قابل کپی کردن است.";
+$l['error_uploadfailed'] = "در بارگذاری فایل بازی مشکلی وجود دارد.";
+$l['tar_problem'] = "فایل tar بازی مشکل دارد.";
+$l['gamealreadyexist'] = "یک بازی با همان نام وجود دارد. زمانی که شما میخواهید یک بازی همنام را اضافه کنید اجبار افزودن بازی را فعال کنید.";
 $l['gamedoesntexist'] = "بازی انتخاب شده موجود نیست.";
 
 $l['delete_gamefiles'] = "بله ، فایل بازی را حذف کن.";
