@@ -2,12 +2,11 @@
 /***************************************************************************
  *
  *   Game Section for MyBB
- *   Copyright: © 2006-2010 The Game Section Development Group
+ *   Copyright: © 2006-2008 The Game Section Development Group
  *   
  *   Website: http://www.gamesection.org
- *   Translate by: My-BB.Ir Group
  *   
- *   Last modified: 01/01/2010 by Paretje
+ *   Last modified: 30/12/2008 by Paretje
  *
  ***************************************************************************/
 
@@ -34,176 +33,75 @@ if(!defined("IN_MYBB"))
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
 }
 
-//Requires
-require_once MYBB_ROOT."inc/class_xml.php";
-require_once MYBB_ROOT."inc/class_parser.php";
-
-//Plugin
-$plugins->run_hooks("admin_games_version_start");
-
-//Navigation
-$page->add_breadcrumb_item($lang->gamesection, "index.php?module=games");
-$page->add_breadcrumb_item($lang->nav_version, "index.php?module=games/version");
-
-//Declare the sub-tabs
-if($mybb->input['action'] == "" || $mybb->input['action'] == "credits")
+function games_meta()
 {
-	$sub_tabs = array();
-	$sub_tabs['version'] = array(
-		'title' => $lang->nav_version,
-		'link' => "index.php?module=games/version",
-		'description' => $lang->nav_version_desc
-	);
-	$sub_tabs['credits'] = array(
-		'title' => $lang->nav_credits,
-		'link' => "index.php?module=games/version&amp;action=credits",
-		'description' => $lang->nav_credits_desc
-	);
+	global $page, $lang, $plugins;
+
+	$sub_menu = array();
+	$sub_menu['10'] = array("id" => "games", "title" => $lang->nav_games, "link" => "index.php?module=games/games");
+	$sub_menu['15'] = array("id" => "gamedata", "title" => $lang->nav_gamedata, "link" => "index.php?module=games/gamedata");
+	$sub_menu['20'] = array("id" => "categories", "title" => $lang->nav_categories, "link" => "index.php?module=games/categories");
+	$sub_menu['30'] = array("id" => "settings", "title" => $lang->nav_settings, "link" => "index.php?module=games/settings");
+	$sub_menu['40'] = array("id" => "themes", "title" => $lang->nav_themes, "link" => "index.php?module=games/themes");
+	$sub_menu['50'] = array("id" => "templates", "title" => $lang->nav_templates, "link" => "index.php?module=games/templates");
+	$sub_menu['60'] = array("id" => "tools", "title" => $lang->nav_tools, "link" => "index.php?module=games/tools");
+	$sub_menu['70'] = array("id" => "version", "title" => $lang->nav_version, "link" => "index.php?module=games/version");
+	
+	$plugins->run_hooks_by_ref("admin_games_menu", $sub_menu);
+	
+	$page->add_menu_item($lang->gamesection, "games", "index.php?module=games", 60, $sub_menu);
+	
+	return true;
 }
 
-if($mybb->input['action'] == "credits")
+function games_action_handler($action)
 {
-	//Navigation and header
-	$page->output_header($lang->nav_credits);
+	global $page, $lang, $plugins;
 	
-	//Show the sub-tabs
-	$page->output_nav_tabs($sub_tabs, 'credits');
+	$page->active_module = "games";
 	
-	//Plugin
-	$plugins->run_hooks("admin_games_version_credits_start");
+	$actions = array(
+		'games' => array('active' => 'games', 'file' => 'games.php'),
+		'gamedata' => array('active' => 'gamedata', 'file' => 'gamedata.php'),
+		'categories' => array('active' => 'categories', 'file' => 'categories.php'),
+		'settings' => array('active' => 'settings', 'file' => 'settings.php'),
+		'themes' => array('active' => 'themes', 'file' => 'themes.php'),
+		'templates' => array('active' => 'templates', 'file' => 'templates.php'),
+		'tools' => array('active' => 'tools', 'file' => 'tools.php'),
+		'version' => array('active' => 'version', 'file' => 'version.php')
+	);
 	
-	//Start table
-	$table = new Table;
-	$table->construct_header($lang->credits_developers, array("class" => "align_center", "width" => "33%"));
-	$table->construct_header($lang->credits_translators, array("class" => "align_center", "width" => "33%"));
-	$table->construct_header($lang->credits_supportteam, array("class" => "align_center", "width" => "33%"));
-	
-	$table->construct_cell("<a href=\"http://www.Online-Urbanus.be\">Paretje</a>");
-	$table->construct_cell("<a href=\"http://camufla.cl.nu\">camufla</a>");
-	$table->construct_cell("<a href=\"http://camufla.cl.nu\">camufla</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=704\">dr34m</a>");
-	$table->construct_cell("<a href=\"http://www.chat2b.be\">destroyer</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://www.mixland.dk/new\">Fedtmule</a>");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=704\">dr34m</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=101\">gastel</a>");
-	$table->construct_cell("<a href=\"http://www.mixland.dk/new\">Fedtmule</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://www.mybb.fr\">Le Poulpe</a>");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=101\">gastel</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://www.Online-Urbanus.be\">Paretje</a>");
-	$table->construct_cell("<a href=\"http://www.mybb.fr\">Le Poulpe</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=129\">Susanne</a>");
-	$table->construct_cell("<a href=\"http://www.Online-Urbanus.be\">Paretje</a>");
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://ots-s.pl\">Victor</a>");
-	$table->construct_cell("<a href=\"http://community.gamesection.org/member.php?action=profile&uid=129\">Susanne</a>");
-	$table->construct_row();
-	
+	$plugins->run_hooks_by_ref("admin_games_action_handler", $actions);
 
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://Mellat-design.ir\">Mehdi-Mellat</a>");
-	$table->construct_cell("<a href=\"http://ots-s.pl\">Victor</a>");
-	$table->construct_row();
-
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"http://my-bb.ir\">My-bb</a>");
-	$table->construct_cell("<a href=\"http://my-bb.ir\">My-bb</a>");
-	$table->construct_row();
-
-
-	
-	//Plugin
-	$plugins->run_hooks("admin_games_version_credits_end");
-	
-	//End of table and AdminCP footer
-	$table->output($lang->nav_credits);
-	$page->output_footer();
-}
-else
-{
-	//Load and read the latest version information
-	$version_controlfile = fetch_remote_file("http://versions.gamesection.org/version.xml");
-	$parser = new XMLParser($version_controlfile);
-	$current_version = $parser->get_tree();
-	
-	//Load your version
-	require_once MYBB_ROOT."inc/plugins/games.php";
-	$info = games_info();
-	
-	//Control version
-	if($current_version['version_check']['version']['value'] != $info['version'])
+	if(!isset($actions[$action]))
 	{
-		$latest_version = "<span style=\"color: red\">".$current_version['version_check']['version']['value']."</span>";
+		$page->active_action = "games";
+		return "games.php";
 	}
 	else
 	{
-		$latest_version = "<span style=\"color: green\">".$current_version['version_check']['version']['value']."</span>";
+		$page->active_action = $actions[$action]['active'];
+		return $actions[$action]['file'];
 	}
+}
+
+function games_admin_permissions()
+{
+	global $lang, $plugins;
 	
-	//Navigation and header
-	$page->output_header($lang->nav_version);
-	
-	//Show the sub-tabs
-	$page->output_nav_tabs($sub_tabs, 'version');
-	
-	//Plugin
-	$plugins->run_hooks("admin_games_version_default_start");
-	
-	//Start table
-	$table = new Table;
-	
-	$table->construct_cell($lang->version_your, array("width" => "40%"));
-	$table->construct_cell($info['version']);
-	$table->construct_row();
-	
-	$table->construct_cell($lang->version_latest, array("width" => "40%"));
-	$table->construct_cell($latest_version);
-	$table->construct_row();
-	
-	//Version information
-	$bbparser = new postParser;
-	$parser_options = array(
-		"allow_html" => 1,
-		"allow_mycode" => 1,
-		"allow_smilies" => 1,
-		"allow_imgcode" => 0,
-		"filter_badwords" => 0
+	$admin_permissions = array(
+		"games"			=> $lang->can_manage_games,
+		"gamedata"		=> $lang->can_manage_gamedata,
+		"categories"		=> $lang->can_manage_categories,
+		"settings"		=> $lang->can_manage_settings,
+		"themes"		=> $lang->can_manage_themes,
+		"templates"		=> $lang->can_manage_templates,
+		"tools"			=> $lang->can_manage_tools,
+		"version"		=> $lang->can_manage_version
 	);
 	
-	$version_information = $bbparser->parse_message($current_version['version_check']['information']['value'], $parser_options);
+	$plugins->run_hooks_by_ref("admin_games_permissions", $admin_permissions);
 	
-	$table->construct_cell("<strong>".$lang->version_information."</strong>", array("width" => "40%", "style" => "vertical-align: top;"));
-	$table->construct_cell($version_information);
-	$table->construct_row();
-	
-	$table->construct_cell("");
-	$table->construct_cell("<a href=\"".$current_version['version_check']['download']['value']."\">".$lang->version_download."</a>");
-	$table->construct_row();
-	
-	//Plugin
-	$plugins->run_hooks("admin_games_version_default_end");
-	
-	//End of table and AdminCP footer
-	$table->output($lang->nav_version);
-	$page->output_footer();
+	return array("name" => $lang->gamesection, "permissions" => $admin_permissions, "disporder" => 60);
 }
 ?>
